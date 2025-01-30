@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/76c2da0eaa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <header class="header">
+    <a href="#" class="logo">PORTFOLIO</a>
+<i class="fa-solid fa-bars" id="menu-icon"></i>
+   <nav class="navbar" id="sidemenu">
+    <ul>
+        <a href="#home" >HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#services" >SERVICES</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
+        <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+</header>
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello:) </h3>
+        <h1>MERON NISRANE</h1>
+        <h3><span>I'M FRONT-END DEVELOPER</span></h3>
+        <p>I'm  web designer with expertise to create and website design,frontend design and more...</p>
+    <div class="social-media">
+        <a href="https://facebook.com/"  style="--i:7;"> <i class="fa-brands fa-facebook"></i></a>
+        <a href=" https://github.com/meron" style="--i:8;"><i class="fa-brands fa-github"></i></a>
+        <a href=" https://instagram.com/merry_1236" style="--i:9;"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/meron-nisrane-1882b629b" style="--i:10;"><i class="fa-brands fa-linkedin"></i></a>
+
+    </div>
+    <a href="portfolio.pdf" class="btn">DOWNLOAD CV</a>
+    </div>
+    <div class="home-img">
+      <img src="photoport2.jpg" alt="" height="400px">  
+    </div>
+</section>
+    
+<!---------------------------------------------------------about--------------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photoport1.jpg" alt="" height="500px" width="500px">
+            </div>
+
+       <div class="about-col-2">
+        <h1 class="sub-title">About <span>Me</span></h1>
+        <p><pre>  I am skilled web designer.My passion is creating captivating website designs and implementing 
+            them through frontend development. I take pride in staying up-to-date with current design trends 
+            and leveraging my creativity to produce visually appealing and  user friendly website .I have developed 
+            a deep understanding of  user experiance(UX) and user interface(UI) principles.I beleive that a well designed 
+            website should not only look visually appealing but also provide a smooth and enjoyable interaction for visitors.
+            when starting a new project ,I throughly search and analyze the target audience and client's specific requirement.This 
+            enables me to tailor my designs to meet their expectations and deliver a unique online presence that aligns with their 
+            brand identity</pre> </p>
+   <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experiance')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+   </div>
+
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>UI/UX</span><br>Designing web interfaces</li>
+        <li><span>Web Development</span><br>Web app Development</li>
+        <li><span>App Development</span><br>Building Android/ios apps</li>
+    </ul>
+</div>
+
+<div class="tab-contents" id="experiance">
+    <ul>
+        <li><span>2021-current</span><br>trainer at ALX</li>
+        <li><span>2019-2021</span><br>UI/UX design training</li>
+        <li><span>2017-2019</span><br>internship</li>
+    </ul>
+</div>
+
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2024</span><br>Debreberhan university</li>
+        <li><span>2023</span><br>train at ALX</li>
+    </ul>
+</div>
+       </div>     
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------services-------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style='color: #00eeff;'></i>
+                <h2>Web Design</h2>
+                <p>creating visually appealing and user-friendly websites. I specialize in crafting custom designs that align with the brand identity and target audience of my clients. </p>
+                <a href="#" class="read">learn more</a>
+            </div>
+
+  <div>
+    <i class="fa-solid fa-crop" style='color: #00eeff;'></i>
+     <h2>UI/UX Design</h2>
+  <p>I specialize in creating intuitive and visually appealing interfaces that enhance user experience. From wireframing to prototyping, I ensure that every design decision is driven by user-centric principles. </p>
+  <a href="#" class="read">learn more</a>
+     </div>
+
+   <div>
+    <i class="fa-brands fa-app-store" style='color: #00eeff;'></i>
+  <h2>App Design</h2>
+  <p>Are you looking for a service that will take your app design to the next level? Look no further! With a keen eye for detail and a passion for creating user-friendly experiences</p>
+  <a href="#" class="read">learn more</a>
+      </div>
+
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------------------portfolio------------------------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span>Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="port3.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world</p>
+<a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="port4.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Network App</h3>
+                    <p>Connect with friends and discover new connections with this social network app that brings talented people from around the world right to your fingertips.</p>
+<a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="port6.jpg" alt="">
+                <div class="layer">
+                    <h3>software developer App</h3>
+                    <p>Join our platform to discover and collaborate with creative minds from all over the globe!</p>
+<a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!--------------------------------------------------------contact------------------------------------------------->
+                
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque earum a, debitis rem maiores inventore veritatis deleniti dolorem eum ex corporis commodi placeat similique dicta ut, libero sequi. Natus, rem?</p>
+<div class="contact-list">
+    <li><i class="bx bxs-send"></i>meronnisrane@gmail.com</li>
+    <li><i class="bx bxs-phone"></i>0953916219</li>
+</div>
+<div class="contact-icons">
+    <a href="https://facebook.com/"> <i class='bx bxl-facebook-circle'></i></a>
+    <a href="https://instagram.com/merry_1236"><i class='bx bxl-instagram'></i></a>
+    <a href="https://www.linkedin.com/in/meron-nisrane-1882b629b"><i class='bx bxl-linkedin'></i></a>
+</div>
+</div>
+<div class="contact-form">
+    <form name="submit-to-google-sheet">
+     <input type="" placeholder="Enter your name" required>   
+     <input type="" placeholder="Enter your Email" required>
+    
+     <input type="" placeholder="Enter your subject" required>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+    <input type="submit" value="submit" class="send">
+
+</form>
+<span id="msg">message sent successfully</span>
+</div>
+</section>
+<div class="last-text">
+    <p>Developed with love by Meron Nisrane @2024</p>
+</div>
+<a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+ 
+    for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }  
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  } 
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+
+}
+</script>
+<script>
+var sidemenu= document.getElementById("sidemenu");
+ 
+function openmenu(){
+sidemenu.style.right= "0";
+
+}
+function closemenu(){
+    sidemenu.style.right= "-200px"
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyiRmgyN0idjuqqrwswdoRHrWAD8hipOESCIxbtxtlRCsJHk9wMJQPBNdUajxmOKEW1/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+msg.innerHTML=""
+         },5000)
+       form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+<script src="script1.js"></script>
+
+</body>
+</html>
